@@ -1,0 +1,170 @@
+:root {
+    --red: #f95738;
+    --blue: #0d3b66;
+    --orange:#ee964b;
+    --beige: #faf0ca;
+    --yellow:#f4d35e;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toolbox-cont{
+    width: 100vw;
+    height: 6rem;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 18rem;
+    background-color: var(--beige);
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.action-btn-cont {
+    height: 3rem;
+    width: 8rem;
+    background-color: var(--beige);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.scaler-logo{
+
+    height: 3rem;
+    width: 15rem;
+    background-color: var(--beige);
+    margin-right: 2rem;
+
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+
+.red{
+    background-color: #f95738;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: lightblue;
+}
+
+.pink{
+    background-color: orange;
+}
+
+.add-btn{
+    font-size: 1.75rem;
+}
+.remove-btn{
+    font-size: 1.5rem;
+}
+
+.modal-cont{
+    height: 50vh;
+    width: 50vw;
+    background-color: var(--beige);
+    display: none;
+    position: fixed;
+    left: 25vw;
+    top:25vh;
+    border: 1px solid black;
+}
+
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    padding: 2rem;
+    border-right: 2px solid black;
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    background-color: rgb(23, 238, 63);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+.main-cont{
+    margin:2rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color:rgb(102, 89, 222);
+    position: relative;
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    font-weight: bold;
+}
+
+.ticket-area{
+    height: calc(10rem - 1.5rem - 1rem);
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.active{
+    border: 5px solid #f22929;
+}
+
+.lock-unlock{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.add-info-box{
+    align-content: center;
+    height: 20rem;
+    width: 30rem;
+    border: 5px solid black;
+    margin-top: 10%;
+    margin-left: 40%;
+    display: none;
+}
+
+.add-info-box p{
+    margin-top:20%;
+    align-content: center;
+}
